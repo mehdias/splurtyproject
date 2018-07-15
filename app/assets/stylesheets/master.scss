@@ -2,9 +2,11 @@
 
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Chela+One');
+
 .clear {
   clear: both;
 }
+
 .circle {
   font-weight: bold;
   font-style: italic;
@@ -23,8 +25,8 @@
   -ms-transform: rotate(11deg);
   -webkit-transform: rotate(11deg);
 
-
 }
+
 .slogan {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style: italic;
@@ -39,16 +41,19 @@
 
 .links a {
   color: black;
-  font-size:25px;
+  font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
   
 }
+
  header {
  border-top: 9px solid #222222;
  }
+
  hr {
  clear:both;
  }
+
  h1 {
  font-family: "Chela One", cursive;
  
@@ -67,8 +72,8 @@
  .footer-text{
 
      font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
-  font-style: italic;
-  text-align: right;
+     font-style: italic;
+     text-align: right;
  }
 
  .logo:hover {
@@ -81,17 +86,26 @@
 
  @media (mad-width: 750px) {
     .footer-text {
-      text-align:left;
+    text-align:left;
     }
  }
 
  .modal {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
+
 h2 span {
   color: #dddddd;
 }
 
 ::selection {
   background-color: #f84342;
+}
+
+.row { 
+max-width: 100%;
+}
+
+header.row {
+  margin: 0;
 }

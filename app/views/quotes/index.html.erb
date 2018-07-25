@@ -11,3 +11,13 @@
 <br />
 <br />
 
+<br />
+Quotes Archive:
+  <% @quotes.each do |quote| %>
+    <%= link_to quote.id, quote_path(quote) %>
+  <% end %>
+</div>
+
+<br />
+<br />
+

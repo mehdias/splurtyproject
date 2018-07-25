@@ -1,6 +1,7 @@
 class QuotesController < ApplicationController
   def index
     @quote = Quote.order("RANDOM()").first
+    @quotes = Quote.all
   end
   
 
@@ -14,6 +15,11 @@ class QuotesController < ApplicationController
   def about
 
   end
+
+  def show
+    @quote=Quote.find(params[:id])
+  end
+  
 
 
   private
